@@ -1,5 +1,10 @@
 name: Deploy to GitHub Pages
 
+env:
+  ASTRO_STUDIO_APP_TOKEN: ${{secrets.ASTRO_STUDIO_APP_TOKEN}}
+  ASTRO_STUDIO_REMOTE_DB_URL: ${{secrets.ASTRO_STUDIO_REMOTE_DB_URL}}
+  ASTRO_STUDIO_URL: ${{secrets.ASTRO_STUDIO_URL}}
+
 on:
   # Trigger the workflow every time you push to the `main` branch
   # Using a different branch name? Replace `main` with your branch’s name
