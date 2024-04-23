@@ -2,6 +2,8 @@ name: Astro Studio
 
 env:
   ASTRO_STUDIO_APP_TOKEN: ${{secrets.ASTRO_STUDIO_APP_TOKEN}}
+  ASTRO_STUDIO_REMOTE_DB_URL: ${{secrets.ASTRO_STUDIO_REMOTE_DB_URL}}
+  ASTRO_STUDIO_URL: ${{secrets.ASTRO_STUDIO_URL}}
 
 on:
   push:
